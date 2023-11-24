@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Form</title>
+</head>
+<body>
+	<div>
+		<form method="POST" action="">
+			<h2>MY first form</h2>
+			<div>
+				<label>Name </label>
+				<input type="text" name="Sname" placeholder="Enter you name">
+			</div><br>
+				<div>
+					<label>Gender</label>
+					<input type="radio" name="sgender" value="Male">male
+					<input type="radio" name="sgender" value="Female">female
+				</div>
+				<div><br>
+					<label>Course</label>
+					<select name="scourse">
+						<option value="sv">Select value</option>
+						<option value="cs">computer science</option>
+						<option value="IT">Information technology</option>
+						<option value="BBIT">Business information technology</option>
+						<option value="COSEF">Computer security and forensic</option>
+					</select>
+				</div><br>
+				<div>
+					<label>Details</label>
+					<textarea name="sDetails" placeholder="Tell us about yourself"> </textarea>
+				</div><br><br>
+				<div>
+					<button>submit</button>
+					<input type="submit" name="ssubmit" value="save">
+				</div><br><br>
+				<div>
+					<label>Email; - Age:</label>
+					<input type="Email" name="Email" placeholder="Enter your email">
+					<input type="number" name="age" placeholder="Enter your age">
+				</div><br>
+				<div>
+					<label>File</label>
+					<input type="file" name="file"accept=".JPG,.JPEG,.PNG">
+				</div><br>
+				<div>
+					<label>Secrate</label>
+					<input type="hidden" name="user_id" value="123">
+				</div><br>
+				<div>
+					<label>Image</label>
+					<input type="image" src="image.jpp" alt="submit"width="50" height="50">
+				</div><br>
+				<div>
+					<label>colour</label>
+					<input type="color" name="color_picker">
+				</div><br>
+				<div>
+					<label>Range</label>
+					<input type="range" name="volume" min="0" max="100" steps="1" value="50" class="range-value" >
+				</div><br>
+
+		</form>
+	</div>
+
+</body>
+</html>
